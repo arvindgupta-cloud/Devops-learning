@@ -1,2 +1,7 @@
 This is dev file to merge in main
+<<<<<<< Updated upstream
 check - conflict
+=======
+This is conflict not
+Hello-Woeld
+>>>>>>> Stashed changes
