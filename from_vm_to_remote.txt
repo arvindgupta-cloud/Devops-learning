@@ -1,1 +1,2 @@
 This is sample file from vm to remote github commit without password by https
+This is added new
