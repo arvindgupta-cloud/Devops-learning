@@ -1,2 +1,3 @@
-This is dev file to merge in main <- dev
-This is conflict file
+
+This is dev file to merge in main
+This is conflict not
