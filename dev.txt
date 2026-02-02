@@ -1,3 +1,4 @@
 
 This is dev file to merge in main
-This is conflict not
+This is not conflict
+Hello-World
