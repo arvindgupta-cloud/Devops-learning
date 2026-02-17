@@ -39,7 +39,7 @@ kubectl apply -f deployment.yaml
 
 The request flows like this:
 
-✅ Step 1: Authentication (Who are you?)
+**✅ Step 1: Authentication (Who are you?)**
 
 API Server checks identity.
 
@@ -52,7 +52,7 @@ Methods:
 
 👉 **Example:** Are you a valid DevOps engineer or not?
 
-✅ Step 2: Authorization (What can you do?)
+**✅ Step 2: Authorization (What can you do?)**
 
 After identity is verified → check permissions.
 
@@ -69,7 +69,7 @@ Handled by:
 
 If not allowed → request denied here.
 
-✅ Step 3: Admission Controllers (Final Gate)
+**✅ Step 3: Admission Controllers (Final Gate)**
 
 Now API Server modifies or validates request.
 
@@ -86,13 +86,13 @@ Now API Server modifies or validates request.
 👉 **Example:**
 If namespace CPU limit exceeded → request rejected.
 
-✅ Step 4: Store in etcd
+**✅ Step 4: Store in etcd**
 
 If everything passes → object stored in **etcd**.
 
 etcd = cluster database.
 
-✅ Step 5: Watch Mechanism (Very Important Concept)
+**✅ Step 5: Watch Mechanism (Very Important Concept)**
 
 Controllers & kubelets use:
 
