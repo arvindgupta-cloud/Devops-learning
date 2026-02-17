@@ -1,6 +1,0 @@
-This is sample file from vm to remote github commit without password by https
-<<<<<<< HEAD
-This is added new
-=======
-__Test__
->>>>>>> b7eaf4d (arvind test)
