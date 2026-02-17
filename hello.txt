@@ -1,4 +1,0 @@
-
-
-Test for Conflict wil come after merge
-This is dev file for check
