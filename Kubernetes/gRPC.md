@@ -27,7 +27,7 @@ gRPC:
 **⚙️ 2️⃣ How gRPC Works**
 
 **Step 1️⃣ Define Service using Protocol Buffers**
-```
+```text
 syntax = "proto3";
 
 service UserService {
@@ -92,7 +92,7 @@ Supported languages:
 
 **Example:**
 
-``` 
+```text
 rpc StreamUsers(UserRequest) returns (stream UserResponse);
 ```
 
