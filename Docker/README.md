@@ -1,5 +1,5 @@
 **Multi-staged Docker**
-```
+```dockerfile
 # Stage 1: The Builder
 # We use a temporary stage to install dependencies
 FROM python:3.9-slim AS builder
