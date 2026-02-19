@@ -22,7 +22,7 @@
 
 **Write Simple DAG with multi-task**
 
-```
+```python
 import datetime
 
 from airflow import DAG
@@ -91,7 +91,7 @@ bash_operator >> [python_operator1, python_operator2] >>  python_operator3
 
 **Create an Apache Airflow DAG pipeline to load GCS data into a Google BigQuery table**
 
-```
+```python
 import datetime
 
 from airflow import DAG
@@ -142,7 +142,7 @@ load_csv
 
 **Check the CSV file exist in the GCS or not in Airflow Sensor**
 
-```
+```python
 import datetime
 
 from airflow import DAG
@@ -196,7 +196,7 @@ check_file >> load_csv
 
 **Move a GCS file from another Folder using Airflow Pipeline DAG**
 
-```
+```python
 import datetime
 
 from airflow import DAG
