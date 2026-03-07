@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-app-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    # Optional but often useful:
+    # nginx.ingress.kubernetes.io/use-regex: "true"   # only if you later use regex paths
+spec:
+  ingressClassName: nginx   # ← usually needed (or default class must be set)
+  rules:
+  - http:
+      paths:
+      - path: /shop
+        pathType: Prefix
+        backend:
+          service:
+            name: my-svc
+            port:
+              number: 8080         # must match your Service .spec.ports[].port
